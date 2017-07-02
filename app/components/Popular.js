@@ -4,7 +4,7 @@ var api = require('../utils/api');
 
 class SelectLanguage extends React.Component {
   render () {
-    var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python']
+    var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
 
     return(
       <ul className='languages'>
@@ -18,7 +18,7 @@ class SelectLanguage extends React.Component {
               {lang}
             </li>
           )
-        })};
+        })}
       </ul>
     )
   }
